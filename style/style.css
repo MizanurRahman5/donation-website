@@ -108,6 +108,31 @@
   border: 1px solid rgb(218, 218, 218);
   margin: 9px 0 30px;
 }
+
+/* donat Plan section Style */
+.donat-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.card-contant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+}
+.donat-card-box {
+  max-width: 360px;
+  padding: 62px 20px;
+  border-radius: 5px;
+
+  background: rgba(79, 157, 166, 0.1);
+}
+
 /* Responsive Style */
 
 @media screen and (max-width: 576px) {
