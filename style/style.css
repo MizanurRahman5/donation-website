@@ -133,15 +133,54 @@
   background: rgba(79, 157, 166, 0.1);
 }
 
+.donat-plan-contant{
+  max-width: 691px;
+}
+.donat-title {
+  color: rgb(18, 18, 18);
+font-family: var(--main_font);
+font-size: 45px;
+font-weight: 700;
+line-height: 54px;
+}
+.donat-des{
+  color: rgb(112, 112, 112);
+font-family: var(--second-font);
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+margin: 20px 0 50px;
+}
+.color2{
+  border-radius: 5px;
+
+background: rgba(255, 89, 89, 0.1);
+}
+.color3{
+background-color: #FFF4D6;
+}
+
+
+
 /* Responsive Style */
 
 @media screen and (max-width: 576px) {
+  .header-contant{
+    width: 80%;
+  }
   .donat-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .card-contant{
+    flex-direction: column;
+  }
+  .donat-card-box, .donat-plan-contant{
+    width: 80%;
 
-  .amount-contant {
+  }
+
+  .amount-contant, .donat-plan, .header {
     width: 100%;
   }
 }
