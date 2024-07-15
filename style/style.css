@@ -10,6 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+main{
+  max-width: 80%;
+  margin: 0 auto;
+}
 
 .header {
   background-image: linear-gradient(
@@ -160,6 +164,45 @@ background: rgba(255, 89, 89, 0.1);
 background-color: #FFF4D6;
 }
 
+/* donat history style */
+
+.donat-history{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 100px 0 100px;
+
+}
+
+
+img {
+  width: 100%;
+}
+
+
+/* footer Style */
+input[type="text"] {
+  padding: 20px 17px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+background: rgb(217, 217, 217);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.subcriber-box {
+  background: rgb(255, 244, 214);
+  padding: 76px 188px;
+}
 
 
 /* Responsive Style */
@@ -172,7 +215,7 @@ background-color: #FFF4D6;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .card-contant{
+  .card-contant, .donat-history{
     flex-direction: column;
   }
   .donat-card-box, .donat-plan-contant{
@@ -182,5 +225,8 @@ background-color: #FFF4D6;
 
   .amount-contant, .donat-plan, .header {
     width: 100%;
+  }
+  .subcriber-box{
+    padding: 20px 30px;
   }
 }
